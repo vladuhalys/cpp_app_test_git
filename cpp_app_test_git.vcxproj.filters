@@ -4,10 +4,21 @@
     <Filter Include="main">
       <UniqueIdentifier>{e7bcc5bd-6e7e-4de0-aae7-eea9b5eb3537}</UniqueIdentifier>
     </Filter>
+    <Filter Include="object">
+      <UniqueIdentifier>{310bdc1e-1ac5-45cb-81f1-79d6aa8155d3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>main</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="object.h">
+      <Filter>object</Filter>
+    </ClInclude>
+    <ClInclude Include="object_handler.h">
+      <Filter>object</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
